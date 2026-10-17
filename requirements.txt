@@ -1,0 +1,16 @@
+# Direct dependencies of facematch.py.
+# Pinned versions are the ones used in the development environment (Python 3.13, Windows).
+# Transitive dependencies (retina-face, pandas, gdown, ...) are pulled in by deepface.
+
+deepface==0.0.102
+tensorflow==2.21.0
+tf-keras==2.21.0
+numpy==2.5.4
+opencv-contrib-python-headless==5.0.0.93
+Pillow==12.3.0
+requests==2.34.2
+instagrapi==3.0.24
+
+# Optional: enables the "mtcnn" detector backend. Without it the script falls back
+# to the next backend automatically.
+# mtcnn
